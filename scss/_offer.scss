@@ -1,0 +1,74 @@
+.offer {
+  padding-top: 30px;
+  @media screen and (min-width: 760px) {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 65px;
+    z-index: 2;
+    @media screen and (min-width: 1350px) {
+      gap: 108px;
+      &:before {
+        content: "";
+        position: absolute;
+        display: inline-block;
+        background-image: url("/img/Rectangle (3).png");
+        width: 960px;
+        height: 1105px;
+        left: 85%;
+        top: -380px;
+        z-index: 1;
+      }
+    }
+  }
+
+  &__title {
+    padding: 0;
+    margin: 0;
+  }
+  &__content {
+    max-width: 250px;
+    margin: 0 auto;
+    @media screen and (min-width: 840px) {
+      max-width: 350px;
+    }
+    @media screen and (min-width: 1350px) {
+      max-width: 421px;
+    }
+
+  }
+  &__desc {
+    margin-top: 19px;
+    margin-bottom: 18px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    @media screen and (min-width: 840px) {
+      font-size: 18px;
+    }
+  }
+  .phone {
+    margin: 40px auto 0 auto;
+    width: 238px;
+    height: 496px;
+    background: url("/img/SamsungS S10+.svg") no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (min-width: 840px) {
+      width: 300px;
+      height: 628px;
+    }
+    &__img {
+      width: 228px;
+      height: 468px;
+      margin-top: -7px;
+      @media screen and (min-width: 840px) {
+        width: 289px;
+        height: 590px;
+      }
+    }
+  }
+}

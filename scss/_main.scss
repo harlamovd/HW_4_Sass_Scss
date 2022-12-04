@@ -34,6 +34,9 @@
   font-weight: 300;
   font-style: normal;
 }
+html {
+  height: 100%;
+}
 .center {
   padding-left: calc(50vw - 148px);
   padding-right: calc(50vw - 148px);
@@ -54,6 +57,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   color: var(--special-color);
   position: relative;
+  min-height: 100%;
   &:before {
     content: "";
     position: absolute;
@@ -126,12 +130,13 @@ h1  {
     border-radius: 30px;
     background-color: #ffffff;
     position: relative;
+    z-index: 1;
     @media screen and (min-width: 840px) {
       &:before {
         content: "";
         position: absolute;
         display: inline-block;
-        background-image: url("/img/Rectangle (1).png");
+        background-image: url("../img/Rectangle (1).png");
         width: 960px;
         height: 1105px;
         left: 50%;
@@ -142,7 +147,7 @@ h1  {
         content: "";
         position: absolute;
         display: inline-block;
-        background: url("/img/Rectangle (2).png") no-repeat;
+        background: url("../img/Rectangle (2).png") no-repeat;
         width: 960px;
         height: 1105px;
         left: 50%;

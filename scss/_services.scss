@@ -1,0 +1,228 @@
+.services {
+}
+.services__bloc {
+  position: relative;
+}
+
+.services__bloc--messenger:before {
+  content: "";
+  position: absolute;
+  width: 960px;
+  height: 953px;
+  background: linear-gradient(73.59deg, #34E48F -8.4%, #3EDFF5 96.66%);
+  clip-path: polygon(100% 0, 100% 45%, 0 100%, 0 55%);
+  transform: translate(0px, -55px);
+  z-index: -1;
+  @media screen and (min-width: 760px) {
+    transform: translate(-50%, 140px);
+    background-image: url("../img/before_serv_left.svg");
+    background-repeat: no-repeat;
+    clip-path: none;
+  }
+  @media screen and (min-width: 840px) {
+    transform: translate(-55%, 80px);
+  }
+  @media screen and (min-width: 1350px) {
+    transform: translate(-60%, 80px);
+  }
+}
+
+.services__bloc--servic:before {
+  content: "";
+  position: absolute;
+  width: 960px;
+  height: 953px;
+  background: linear-gradient(67.28deg, #FFE663 2.61%, #DE6DF0 98.48%);;
+  clip-path: polygon(100% 0, 100% 45%, 0 100%, 0 55%);
+  transform: translate(0px, -35px);
+  z-index: -1;
+  @media screen and (min-width: 760px) {
+    transform: translate(63%, -170px);
+    width: 960px;
+    height: 1115px;
+    background-image: url("../img/before_serv_right.svg");
+    background-repeat: no-repeat;
+    clip-path: none;
+  }
+  @media screen and (min-width: 840px) {
+    transform: translate(67%, -100px);
+  }
+  @media screen and (min-width: 1350px) {
+    transform: translate(72%, -100px);
+  }
+}
+
+.services__bloc--text-block:before {
+  content: "";
+  position: absolute;
+  width: 960px;
+  height: 953px;
+  background: linear-gradient(67.29deg, #9043F2 2.6%, #87DBFF 97.97%);
+  clip-path: polygon(100% 0, 100% 45%, 0 100%, 0 55%);
+  transform: translate(0px, -35px);
+  z-index: -1;
+  @media screen and (min-width: 760px) {
+    transform: translate(-50%, 140px);
+    background-image: url("../img/before_serv_left.svg");
+    background-repeat: no-repeat;
+    clip-path: none;
+  }
+  @media screen and (min-width: 840px) {
+    transform: translate(-55%, 80px);
+  }
+  @media screen and (min-width: 1350px) {
+    transform: translate(-60%, 80px);
+  }
+}
+
+.services__bloc--map:before {
+  content: "";
+  position: absolute;
+  width: 960px;
+  height: 953px;
+  background: linear-gradient(67.28deg, #2BC0CA 2.61%, #A2E479 98.48%);
+  clip-path: polygon(100% 0, 100% 45%, 0 100%, 0 55%);
+  transform: translate(0px, -80px);
+  z-index: -1;
+  @media screen and (min-width: 760px) {
+    transform: translate(63%, -170px);
+    width: 960px;
+    height: 1115px;
+    background-image: url("../img/before_serv_right.svg");
+    background-repeat: no-repeat;
+    clip-path: none;
+  }
+  @media screen and (min-width: 840px) {
+    transform: translate(67%, -100px);
+  }
+  @media screen and (min-width: 1350px) {
+    transform: translate(72%, -100px);
+  }
+}
+
+.services__bloc--page-decor:before {
+  content: "";
+  position: absolute;
+  width: 960px;
+  height: 953px;
+  background: linear-gradient(71.15deg, #E4B334 -4.61%, #F37474 96.78%);
+  clip-path: polygon(100% 0, 100% 45%, 0 100%, 0 55%);
+  transform: translate(0px, 0px);
+  z-index: -1;
+  @media screen and (min-width: 760px) {
+    transform: translate(-50%, 140px);
+    background-image: url("../img/before_serv_left.svg");
+    background-repeat: no-repeat;
+    clip-path: none;
+  }
+  @media screen and (min-width: 840px) {
+    transform: translate(-55%, 80px);
+  }
+  @media screen and (min-width: 1350px) {
+    transform: translate(-60%, 80px);
+  }
+}
+
+.services__bloc--buttonslinks:before {
+  content: "";
+  position: absolute;
+  width: 960px;
+  height: 953px;
+  background: linear-gradient(67.28deg, #CE45C0 2.61%, #706DF0 98.48%);
+  clip-path: polygon(100% 0, 100% 45%, 0 100%, 0 55%);
+  transform: translate(0px, -20px);
+  z-index: -1;
+  @media screen and (min-width: 760px) {
+    transform: translate(63%, -170px);
+    width: 960px;
+    height: 1115px;
+    background-image: url("../img/before_serv_right.svg");
+    background-repeat: no-repeat;
+    clip-path: none;
+  }
+  @media screen and (min-width: 840px) {
+    transform: translate(67%, -100px);
+  }
+  @media screen and (min-width: 1350px) {
+    transform: translate(72%, -100px);
+  }
+}
+
+.services__bloc--review:before {
+  content: "";
+  position: absolute;
+  width: 960px;
+  height: 953px;
+  background: linear-gradient(67.29deg, #4393F2 2.6%, #87C6FF 97.97%);
+  clip-path: polygon(100% 0, 100% 45%, 0 100%, 0 55%);
+  transform: translate(0px, -80px);
+  z-index: -1;
+  @media screen and (min-width: 760px) {
+    transform: translate(-50%, 140px);
+    background-image: url("../img/before_serv_left.svg");
+    background-repeat: no-repeat;
+    clip-path: none;
+  }
+  @media screen and (min-width: 840px) {
+    transform: translate(-55%, 80px);
+  }
+  @media screen and (min-width: 1350px) {
+    transform: translate(-60%, 80px);
+  }
+}
+
+.services__bloc--video:before {
+  content: "";
+  position: absolute;
+  width: 960px;
+  height: 953px;
+  background: linear-gradient(67.29deg, #EFF243 2.6%, #F06DB4 97.97%);
+  clip-path: polygon(100% 0, 100% 45%, 0 100%, 0 55%);
+  transform: translate(0px, -80px);
+  z-index: -1;
+  @media screen and (min-width: 760px) {
+    transform: translate(63%, -170px);
+    width: 960px;
+    height: 1115px;
+    background-image: url("../img/before_serv_right.svg");
+    background-repeat: no-repeat;
+    clip-path: none;
+  }
+  @media screen and (min-width: 840px) {
+    transform: translate(67%, -100px);
+  }
+  @media screen and (min-width: 1350px) {
+    transform: translate(72%, -100px);
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .services__bloc--layer-left:after {
+    content: "";
+    position: absolute;
+    width: 960px;
+    height: 1105px;
+    background-image: url("../img/afto_serv.svg");
+    background-repeat: no-repeat;
+    right: 78%;
+    top: 20%;
+    z-index: -1;
+  }
+  .services__bloc--layer-right:after {
+    content: "";
+    position: absolute;
+    width: 960px;
+    height: 1115px;
+    background-image: url("../img/afto_serv_right.svg");
+    background-repeat: no-repeat;
+    left: 104%;
+    bottom: -20%;
+    z-index: -1;
+  }
+}
+
+.services-phone {
+  background-image: url("../img/SamsungS S10+.svg");
+  &__img {
+  }
+}
